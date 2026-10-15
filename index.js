@@ -17,7 +17,7 @@ else {
 
 // Iteration 3: Loops
 for(let i = 0; i < hacker1.length; i++){
-    process.stdout.write(hacker1[i] + " ") ;
+    process.stdout.write(hacker1[i].toUpperCase() + " ") ;
 }
 console.log();
 for(let i = hacker2.length - 1; i >= 0; i--){
